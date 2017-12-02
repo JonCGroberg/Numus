@@ -1,0 +1,45 @@
+{
+  "name": "stocks",
+  "productName": "Stocks",
+  "version": "0.0.0",
+  "description": "My awe-inspiring app",
+  "license": "MIT",
+  "repository": "JonCGroberg/stocks",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "joncg.com"
+  },
+  "main":"/main/app.js",
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --asar --overwrite --all"
+  },
+  "files": [
+    "main/app.js",
+    "dashboard/index.html",
+    "dashboard/index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "electron-debug": "^1.0.0",
+    "gdax": "^0.4.2"
+  },
+  "devDependencies": {
+    "devtron": "^1.1.0",
+    "electron": "^1.8.1",
+    "electron-packager": "^8.0.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}
