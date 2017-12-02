@@ -1,10 +1,10 @@
 {
-  "name": "stocks",
-  "productName": "Stocks",
+  "name": "Numus",
+  "productName": "Numus",
   "version": "0.0.0",
-  "description": "My awe-inspiring app",
+  "description": "Cryptocurrency stock tracking,",
   "license": "MIT",
-  "repository": "JonCGroberg/stocks",
+  "repository": "JonCGroberg/Numus",
   "author": {
     "name": "",
     "email": "",

@@ -1,6 +1,6 @@
 # stocks
 
-> My awe-inspiring app
+> Cryptocurrency tracking desktop app built with electron
 
 
 ## Dev
