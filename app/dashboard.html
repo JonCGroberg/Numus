@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Numus</title>
+	<link rel="stylesheet" href="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+	<link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+	<div class="topbar">
+		<div class="info">
+			<button type="button" class="but" name="button">Start Bot</button>
+			<div id="total">Total:</div>
+		</div>
+
+		<div class="nav">
+			<button class="topbutton" type="button" name="button">Coins</button>
+			<button class="topbutton" type="button" name="button">Portfolio</button>
+		</div>
+	</div>
+
+	<div id="content">
+		<div class="widget grid">
+			<div class="title">
+				<item>
+					Coin
+				</item>
+				<item>
+					Amount
+				</item>
+				<item>
+					BTC
+				</item>
+				<item>
+					USD
+				</item>
+			</div>
+		</div>
+		<div class="widget pie">
+			<div id="pie">
+				<div class="ct-chart ct-square"></div>
+			</div>
+		</div>
+	</div>
+
+	<script src="dashboard.js"></script>
+</body>
+
+</html>
