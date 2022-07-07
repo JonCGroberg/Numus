@@ -6,34 +6,38 @@
   "license": "MIT",
   "repository": "JonCGroberg/Numus",
   "author": {
-    "name": "",
-    "email": "",
+    "name": "Jonthan Groberg",
+    "email": "Jongroberg@gmail.com",
     "url": "joncg.com"
   },
-  "main":"/main/app.js",
+  "main": "main.js",
   "scripts": {
     "test": "xo",
     "start": "electron .",
     "build": "electron-packager . --out=dist --asar --overwrite --all"
   },
   "files": [
-    "main/app.js",
-    "dashboard/index.html",
-    "dashboard/index.css"
+    "/main/app.js",
+    "/dashboard/index.html",
+    "/dashboard/index.css"
   ],
   "keywords": [
     "electron-app",
     "electron"
   ],
   "dependencies": {
-    "electron-debug": "^1.0.0",
-    "gdax": "^0.4.2"
+    "chartist": "^0.11.4",
+    "electron-debug": "^1.5.0",
+    "jquery": "^3.5.1",
+    "jquery-ui": "^1.12.1",
+    "node-binance-api": "^0.2.13",
+    "randomcolor": "^0.5.4"
   },
   "devDependencies": {
     "devtron": "^1.1.0",
-    "electron": "^1.8.1",
+    "electron": "^9.0.0",
     "electron-packager": "^8.0.0",
-    "xo": "^0.16.0"
+    "xo": "^0.23.0"
   },
   "xo": {
     "esnext": true,
